@@ -19,9 +19,7 @@ body {
 
 img.img__item {
     width: 200px;
-    position: absolute;
-    top: 50%;
-    left: 0;
+    height: 80%;
 }
 
 /* Container */
@@ -36,11 +34,18 @@ img.img__item {
     justify-content: center;
 }
 /* BOX */
+.img__title {
+    
+    bottom: 0;
+    text-align: center;
+    left: 30%;
+}
 
 .img__box {
-    background: rgb(51, 68, 221);
-    border-radius: 10%;
-    height: 160px;
+    background: linear-gradient(#6ba2d8 80%, #faf7ff 20%);
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px #dddcdc;
+    height: 133px;
     position: relative;
     width: 200px;
 }
